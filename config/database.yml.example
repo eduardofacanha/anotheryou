@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  username: anotheryou
+  host: localhost
+
+development:
+  <<: *default
+  database: anotheryou_dev
+
+test:
+  <<: *default
+  database: anotheryou_test
