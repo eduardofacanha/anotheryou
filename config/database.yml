@@ -1,12 +1,15 @@
 default: &default
   adapter: postgresql
-  username: anotheryou
-  host: localhost
+  username: ifqoebzxmpchmh
+  host: ec2-50-17-203-195.compute-1.amazonaws.com
+  password: 6f8133ea040f2dbfe1046bdd8956171468e43eee81eb78e2bc80c680ccf239e0
+  port: 5432
+  uri: postgres://ifqoebzxmpchmh:6f8133ea040f2dbfe1046bdd8956171468e43eee81eb78e2bc80c680ccf239e0@ec2-50-17-203-195.compute-1.amazonaws.com:5432/db9ph9dhbk4a12
 
 development:
   <<: *default
-  database: anotheryou_dev
+  database: db9ph9dhbk4a12
 
 test:
   <<: *default
-  database: anotheryou_test
+  database: 
