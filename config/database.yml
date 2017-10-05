@@ -1,4 +1,4 @@
-production
+production:
   adapter: postgresql
   username: ifqoebzxmpchmh
   host: ec2-50-17-203-195.compute-1.amazonaws.com
