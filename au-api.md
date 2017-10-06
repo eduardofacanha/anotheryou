@@ -11,7 +11,7 @@ Cria uma nova conta com os dados informados.
 
 
 
-#### CURL
+#### CU RL
 
 ```sh
 curl -X POST "http://api.anotheryou.dev/users/" \
